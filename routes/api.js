@@ -5,7 +5,7 @@ var userFacade = require("../facades/userFacade");
 var blogFacade = require("../facades/blogFacade");
 var loginFacade = require("../facades/loginFacade");
 var positionFacade = require("../facades/positionFacade");
-var User = require("../models/user");
+var User = require("../models/User");
 var LocationBlog = require("../models/LocationBlog");
 const mongoose = require("mongoose");
 
