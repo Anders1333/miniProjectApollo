@@ -1,5 +1,5 @@
 var mongoose = require("mongoose");
-var User = require("../models/user");
+var User = require("../models/User");
 
 function getAllUsers() {
   return User.find({}).exec();

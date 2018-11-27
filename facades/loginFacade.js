@@ -1,5 +1,5 @@
 var mongoose = require("mongoose");
-var User = require("../models/user");
+var User = require("../models/User");
 var Position = require("../models/Position")
 var Blog = require("../models/LocationBlog");
 var positionFacade = require("./positionFacade");
