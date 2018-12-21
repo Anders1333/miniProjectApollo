@@ -8,11 +8,17 @@
     "test": "SET DEBUG=miniproject:* & mocha -w"
   },
   "dependencies": {
+    "@okgrow/graphql-scalars": "^0.4.2",
     "chai-http": "^4.2.0",
     "cookie-parser": "~1.4.3",
+    "cors": "^2.8.5",
     "debug": "~2.6.9",
     "ejs": "~2.5.7",
     "express": "^4.16.4",
+    "express-graphql": "^0.7.1",
+    "graphql": "^14.0.2",
+    "graphql-tag": "^2.10.0",
+    "graphql-tools": "^4.0.3",
     "http-errors": "^1.7.1",
     "mocha": "^5.2.0"
   },
